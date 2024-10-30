@@ -1,0 +1,43 @@
+.main{
+    background-color: rgb(50, 50, 96);
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+.photo{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-left: -600px;
+    margin-top: 30px;
+}
+.author{
+    margin-left: -350px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+.nickname,.date{
+    font-size: 13px;
+    opacity: 50%;
+    margin-top: -35px;
+    margin-left: -70px;
+}
+.date{
+    margin-top: -30px;
+    margin-left: 80px;
+}
+.content{
+    margin-left: -160px;
+    margin-top: 30px;
+}
+.image{
+    margin-left: 35px;
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
